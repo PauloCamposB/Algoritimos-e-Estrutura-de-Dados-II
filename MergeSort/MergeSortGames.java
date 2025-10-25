@@ -32,7 +32,7 @@ public class MergeSortGames {
 
     public static void main(String[] args) throws Exception {
         out = new PrintStream(System.out, true, "UTF-8"); 
-        List<Game> todos = carregarCSV("games.csv");
+        List<Game> todos = carregarCSV("/tmp/games.csv");
         if (todos.isEmpty()) return;
 
         List<Game> selecionados = new ArrayList<>();
