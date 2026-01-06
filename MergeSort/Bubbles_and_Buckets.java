@@ -61,12 +61,8 @@ public class Bubbles_and_Buckets {
                 p[i] = sc.nextInt(); // 1 5 3 4 2 
             }
     
-            int[] novo = new int[n];
-            for(int i = 0; i < n; i++){
-                novo[i] = p[i];
-            }
     
-            mergeSort(novo,0,n-1);
+            mergeSort(p,0,n-1);
     
             
             if(inversao % 2 == 0){
@@ -83,3 +79,4 @@ public class Bubbles_and_Buckets {
         sc.close();
     }    
 }
+
